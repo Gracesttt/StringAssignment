@@ -12,7 +12,7 @@ int main()
         printf("Input string %d:",i);
         fgets(s1[i],30,stdin);
         s1[i][strlen(s1[i])-1]='\0';
-        //ใช้get มันจะenterเลยต้องมาแก้ให้ตัวท้ายไม่ใช่enter
+        
     }
     
     char first[30],last[30];
